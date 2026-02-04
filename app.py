@@ -7,9 +7,6 @@ import uuid
 import os
 import functools
 
-# =====================================================
-# App Configuration
-# =====================================================
 
 app = Flask(__name__)
 app.secret_key = "super-secret-key-change-this"
