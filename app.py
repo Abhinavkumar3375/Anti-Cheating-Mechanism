@@ -17,8 +17,6 @@ MAX_VIOLATIONS = 3
 TEST_DURATION_MINUTES = 30
 
 # =====================================================
-# Database Utilities
-# =====================================================
 
 def get_db():
     conn = sqlite3.connect(DATABASE)
