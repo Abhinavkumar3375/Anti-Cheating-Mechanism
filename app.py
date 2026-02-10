@@ -17,8 +17,7 @@ app.permanent_session_lifetime = timedelta(minutes=90)
 DATABASE = "anticheat.db"
 MAX_VIOLATIONS = 3
 TEST_DURATION_MINUTES = 30
-
-# =====================================================
+# =====================
 
 def get_db():
     conn = sqlite3.connect(DATABASE)
