@@ -6,8 +6,6 @@ import sqlite3
 import uuid
 import os
 import functools
-import pandas 
-import nummpy
 
 # -----------------------------------------------------
 app = Flask(__name__)
