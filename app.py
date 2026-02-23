@@ -320,10 +320,10 @@ def seed_admin():
         VALUES (?, ?, ?, ?)
         """, (
             "Admin",
-            "admin@system.com",
+            "Abhinavdmin@system.com",
             generate_password_hash("admin123"),
             "admin"
-        ))
+        ))a
         conn.commit()
 
     conn.close()
