@@ -12,8 +12,8 @@ app.secret_key = "super-secret-key-change-this"
 app.permanent_session_lifetime = timedelta(minutes=90)
 
 DATABASE = "anticheat.db"
-MAX_VIOLATIONS = 3
-TEST_DURATION_MINUTES = 30
+MAX_VIOLATIONS = 4
+TEST_DURATION_MINUTES = 35
 # =====================
 
 def get_db():
